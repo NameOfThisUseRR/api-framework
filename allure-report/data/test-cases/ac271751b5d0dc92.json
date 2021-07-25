@@ -1,0 +1,35 @@
+{
+  "uid" : "ac271751b5d0dc92",
+  "name" : "Поиск существующего кота",
+  "fullName" : "Поиск существующего кота",
+  "historyId" : "d716fb6a47cb3d0fc11aa8178902688f",
+  "time" : {
+    "start" : 1626618404323,
+    "stop" : 1626618404652,
+    "duration" : 329
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Проверка функционала добавления котов"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac271751b5d0dc92.json",
+  "parameterValues" : [ ]
+}

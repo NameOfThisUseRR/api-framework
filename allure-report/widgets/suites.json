@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "ccec71e574dc8abee59f2de643bb544d",
+    "name" : "Проверка функционала добавления котов",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "e0eedae22962963e1c8bf46bbeb96cb3",
+    "name" : "Проверка имени кота",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "271c8b1fa8b720f74d316f6ecd756a4a",
+    "name" : "Тесты",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "93f9c8c71406902d45a824f8332e30ce",
+    "name" : "Проверка денежной операции",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "8760d3abc0ea21fa0b8c021f3e952e5e",
+    "name" : "Функционал добавления кота",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

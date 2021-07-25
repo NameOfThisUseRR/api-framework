@@ -1,0 +1,1 @@
+{"uuid":"be271902-9341-496f-b6db-d53b0a5f28ca","historyId":"e9e1bb2734495c4e84ba28f7a140ac0e","status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"labels":[{"name":"parentSuite","value":"Тесты"}],"links":[],"start":1626618405700,"name":"Параметризованный тест 1","fullName":"Параметризованный тест 1","stop":1626618405702}

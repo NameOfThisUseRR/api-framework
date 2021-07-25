@@ -1,0 +1,1 @@
+{"uuid":"a7bc8b5b-8d74-454b-bad5-1d596877174e","historyId":"c92be27c39333b422e263c9b7215c429","status":"skipped","statusDetails":{"message":"Test ignored"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"labels":[{"name":"parentSuite","value":"Тесты"}],"links":[],"start":1626618405716,"name":"retries","fullName":"retries","stop":1626618405716}

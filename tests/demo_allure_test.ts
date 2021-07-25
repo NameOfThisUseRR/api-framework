@@ -2,11 +2,12 @@ import { assert } from 'chai';
 import CoreApi from '../src/http/CoreApi';
 import { allure } from 'allure-mocha/runtime';
 import Steps from '../src/steps/Steps';
-
+//mocha tests/*allure*.ts
+const name = 'Египет';
+const id = 2256093;
 describe('Проверка имени кота', async () => {
   it('allure', async () => {
-    const name = 'Вики';
-    const id = 101368;
+
 
     const response = await CoreApi.getCatById(id);
     allure.logStep(`выполнен запрос GET /get-by-id c параметром ${id}`);
@@ -20,9 +21,6 @@ describe('Проверка имени кота', async () => {
   });
 
   it('allure2', async () => {
-    const name = 'Вики';
-    const id = 101368;
-
     const response = await allure.step(
       `выполнен запрос GET /get-by-id c параметром ${id}`,
       async () => {
@@ -55,9 +53,6 @@ describe('Проверка имени кота', async () => {
     allure.issue('JIRA-1245', 'https://jira.qa-fintech.ru/');
     allure.severity('BLOCKER');
     allure.writeEnvironmentInfo({ lib: 'axios', v: '0.21.1' });
-
-    const name = 'Вики';
-    const id = 101368;
 
     const response = await Steps.common.stepGetCatById(id);
 

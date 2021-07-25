@@ -1,0 +1,181 @@
+[ {
+  "uid" : "26e96e8392df166a",
+  "name" : "allure2",
+  "time" : {
+    "start" : 1626628092286,
+    "stop" : 1626628092305,
+    "duration" : 19
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2320c5a85139b477",
+  "name" : "allure3",
+  "time" : {
+    "start" : 1626628092308,
+    "stop" : 1626628092350,
+    "duration" : 42
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "29eef7c1ca747a91",
+  "name" : "Карта2",
+  "time" : {
+    "start" : 1626620970559,
+    "stop" : 1626620970560,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "819833b92b85101a",
+  "name" : "Проверка статуса ответа при удалении несуществующего кота",
+  "time" : {
+    "start" : 1626618404654,
+    "stop" : 1626618404961,
+    "duration" : 307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a2e5e1f475a474c",
+  "name" : "retries",
+  "time" : {
+    "start" : 1626620970549,
+    "stop" : 1626620970550,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49d444d79e3200ec",
+  "name" : "Проверка что все коты из списка женского пола",
+  "time" : {
+    "start" : 1626618405335,
+    "stop" : 1626618405679,
+    "duration" : 344
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4beb85171dbcc5a7",
+  "name" : "Карта1",
+  "time" : {
+    "start" : 1626620970556,
+    "stop" : 1626620970557,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4fac96542bc3176",
+  "name" : "Проверка данных о коте",
+  "time" : {
+    "start" : 1626618404998,
+    "stop" : 1626618405333,
+    "duration" : 335
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b12f3e103511a5e6",
+  "name" : "Карта2",
+  "time" : {
+    "start" : 1626620970565,
+    "stop" : 1626620970567,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c045dfb9e3ae6fd8",
+  "name" : "allure",
+  "time" : {
+    "start" : 1626628092206,
+    "stop" : 1626628092283,
+    "duration" : 77
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ac271751b5d0dc92",
+  "name" : "Поиск существующего кота",
+  "time" : {
+    "start" : 1626618404323,
+    "stop" : 1626618404652,
+    "duration" : 329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e901717cf9a48974",
+  "name" : "Получение кота по id",
+  "time" : {
+    "start" : 1626618403923,
+    "stop" : 1626618404285,
+    "duration" : 362
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d90cacf1026e8d0",
+  "name" : "Добавление нового несуществующего кота",
+  "time" : {
+    "start" : 1626618401055,
+    "stop" : 1626618401392,
+    "duration" : 337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "882f5ea542a4be84",
+  "name" : "Карта1",
+  "time" : {
+    "start" : 1626620970562,
+    "stop" : 1626620970564,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb1d1b997a0c08ba",
+  "name" : "Сломанный тест",
+  "time" : {
+    "start" : 1626620970516,
+    "stop" : 1626620970520,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5bc2d0a7f863a62",
+  "name" : "Параметризованный тест 3",
+  "time" : {
+    "start" : 1626620970540,
+    "stop" : 1626620970541,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af07cd2705d453f8",
+  "name" : "Параметризованный тест 1",
+  "time" : {
+    "start" : 1626620970522,
+    "stop" : 1626620970524,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "100fa8a017201c7",
+  "name" : "Параметризованный тест 2",
+  "time" : {
+    "start" : 1626620970526,
+    "stop" : 1626620970528,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

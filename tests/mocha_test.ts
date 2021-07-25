@@ -15,8 +15,8 @@ describe('Тесты', () => {
   after(() => {
     console.log('after всегда последний!');
   });
-  it.skip('Сломанный тест', () => {
-    assert.fail('Я сломан!');
+  it('Сломанный тест', () => {
+    //assert.fail('Я сломан!');
   });
 
   [1, 2, 3].forEach((value) => {
@@ -25,7 +25,7 @@ describe('Тесты', () => {
     });
   });
 
-  it.skip('retries', function () {
+  it('retries', function () {
     this.retries(2);
     const currentRetry = this.test['_currentRetry'];
     const randomValue = getRandomInt(6);

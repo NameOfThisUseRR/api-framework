@@ -1,0 +1,1 @@
+{"uuid":"1e4ea688-26aa-4874-872b-21e3f779a7c5","historyId":"ad4c26ffa3e01bf0187887a01200594b","status":"skipped","statusDetails":{"message":"Test ignored"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"labels":[{"name":"parentSuite","value":"Тесты"}],"links":[],"start":1626618405698,"name":"Сломанный тест","fullName":"Сломанный тест","stop":1626618405699}

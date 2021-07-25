@@ -1,0 +1,267 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Функционал добавления кота",
+    "children" : [ {
+      "name" : "Добавление нового несуществующего кота",
+      "uid" : "d90cacf1026e8d0",
+      "parentUid" : "8760d3abc0ea21fa0b8c021f3e952e5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626618401055,
+        "stop" : 1626618401392,
+        "duration" : 337
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8760d3abc0ea21fa0b8c021f3e952e5e"
+  }, {
+    "name" : "Проверка функционала добавления котов",
+    "children" : [ {
+      "name" : "Получение кота по id",
+      "uid" : "e901717cf9a48974",
+      "parentUid" : "ccec71e574dc8abee59f2de643bb544d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626618403923,
+        "stop" : 1626618404285,
+        "duration" : 362
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Поиск существующего кота",
+      "uid" : "ac271751b5d0dc92",
+      "parentUid" : "ccec71e574dc8abee59f2de643bb544d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626618404323,
+        "stop" : 1626618404652,
+        "duration" : 329
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка статуса ответа при удалении несуществующего кота",
+      "uid" : "819833b92b85101a",
+      "parentUid" : "ccec71e574dc8abee59f2de643bb544d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626618404654,
+        "stop" : 1626618404961,
+        "duration" : 307
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка данных о коте",
+      "uid" : "b4fac96542bc3176",
+      "parentUid" : "ccec71e574dc8abee59f2de643bb544d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626618404998,
+        "stop" : 1626618405333,
+        "duration" : 335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка что все коты из списка женского пола",
+      "uid" : "49d444d79e3200ec",
+      "parentUid" : "ccec71e574dc8abee59f2de643bb544d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626618405335,
+        "stop" : 1626618405679,
+        "duration" : 344
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ccec71e574dc8abee59f2de643bb544d"
+  }, {
+    "name" : "Тесты",
+    "children" : [ {
+      "name" : "Сломанный тест",
+      "uid" : "eb1d1b997a0c08ba",
+      "parentUid" : "271c8b1fa8b720f74d316f6ecd756a4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626620970516,
+        "stop" : 1626620970520,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Параметризованный тест 1",
+      "uid" : "af07cd2705d453f8",
+      "parentUid" : "271c8b1fa8b720f74d316f6ecd756a4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626620970522,
+        "stop" : 1626620970524,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Параметризованный тест 2",
+      "uid" : "100fa8a017201c7",
+      "parentUid" : "271c8b1fa8b720f74d316f6ecd756a4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626620970526,
+        "stop" : 1626620970528,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Параметризованный тест 3",
+      "uid" : "a5bc2d0a7f863a62",
+      "parentUid" : "271c8b1fa8b720f74d316f6ecd756a4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626620970540,
+        "stop" : 1626620970541,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "retries",
+      "uid" : "3a2e5e1f475a474c",
+      "parentUid" : "271c8b1fa8b720f74d316f6ecd756a4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626620970549,
+        "stop" : 1626620970550,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "271c8b1fa8b720f74d316f6ecd756a4a"
+  }, {
+    "name" : "Проверка денежной операции",
+    "children" : [ {
+      "name" : "Оплата",
+      "children" : [ {
+        "name" : "Карта1",
+        "uid" : "4beb85171dbcc5a7",
+        "parentUid" : "310a67ed680210917d026a910eca8fcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626620970556,
+          "stop" : 1626620970557,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Карта2",
+        "uid" : "29eef7c1ca747a91",
+        "parentUid" : "310a67ed680210917d026a910eca8fcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626620970559,
+          "stop" : 1626620970560,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "310a67ed680210917d026a910eca8fcb"
+    }, {
+      "name" : "Перевод",
+      "children" : [ {
+        "name" : "Карта1",
+        "uid" : "882f5ea542a4be84",
+        "parentUid" : "4770bbeb64798ac7210ab6200a3862b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626620970562,
+          "stop" : 1626620970564,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Карта2",
+        "uid" : "b12f3e103511a5e6",
+        "parentUid" : "4770bbeb64798ac7210ab6200a3862b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626620970565,
+          "stop" : 1626620970567,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4770bbeb64798ac7210ab6200a3862b0"
+    } ],
+    "uid" : "93f9c8c71406902d45a824f8332e30ce"
+  }, {
+    "name" : "Проверка имени кота",
+    "children" : [ {
+      "name" : "allure",
+      "uid" : "c045dfb9e3ae6fd8",
+      "parentUid" : "e0eedae22962963e1c8bf46bbeb96cb3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626628092206,
+        "stop" : 1626628092283,
+        "duration" : 77
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "allure2",
+      "uid" : "26e96e8392df166a",
+      "parentUid" : "e0eedae22962963e1c8bf46bbeb96cb3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626628092286,
+        "stop" : 1626628092305,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "allure3",
+      "uid" : "2320c5a85139b477",
+      "parentUid" : "e0eedae22962963e1c8bf46bbeb96cb3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626628092308,
+        "stop" : 1626628092350,
+        "duration" : 42
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e0eedae22962963e1c8bf46bbeb96cb3"
+  } ]
+}

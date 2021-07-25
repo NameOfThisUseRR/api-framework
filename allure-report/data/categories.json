@@ -1,0 +1,91 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot read property 'data' of undefined",
+      "children" : [ {
+        "name" : "Получение кота по id",
+        "uid" : "e901717cf9a48974",
+        "parentUid" : "e3fbf168a3c16fe38c3714db6895daaa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626618403923,
+          "stop" : 1626618404285,
+          "duration" : 362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка данных о коте",
+        "uid" : "b4fac96542bc3176",
+        "parentUid" : "e3fbf168a3c16fe38c3714db6895daaa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626618404998,
+          "stop" : 1626618405333,
+          "duration" : 335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка что все коты из списка женского пола",
+        "uid" : "49d444d79e3200ec",
+        "parentUid" : "e3fbf168a3c16fe38c3714db6895daaa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626618405335,
+          "stop" : 1626618405679,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "allure",
+        "uid" : "c045dfb9e3ae6fd8",
+        "parentUid" : "e3fbf168a3c16fe38c3714db6895daaa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626628092206,
+          "stop" : 1626628092283,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "allure2",
+        "uid" : "26e96e8392df166a",
+        "parentUid" : "e3fbf168a3c16fe38c3714db6895daaa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626628092286,
+          "stop" : 1626628092305,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "allure3",
+        "uid" : "2320c5a85139b477",
+        "parentUid" : "e3fbf168a3c16fe38c3714db6895daaa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626628092308,
+          "stop" : 1626628092350,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3fbf168a3c16fe38c3714db6895daaa"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

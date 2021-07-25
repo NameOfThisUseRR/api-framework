@@ -1,0 +1,41 @@
+{
+  "uid" : "e901717cf9a48974",
+  "name" : "Получение кота по id",
+  "fullName" : "Получение кота по id",
+  "historyId" : "666a607e00b58a982ae5d4f34e159e67",
+  "time" : {
+    "start" : 1626618403923,
+    "stop" : 1626618404285,
+    "duration" : 362
+  },
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'data' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'data' of undefined\n    at Context.<anonymous> (tests\\demo_test.ts:10:27)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Проверка функционала добавления котов"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e901717cf9a48974.json",
+  "parameterValues" : [ ]
+}

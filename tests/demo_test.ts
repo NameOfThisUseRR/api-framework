@@ -3,20 +3,21 @@ import CoreApi from '../src/http/CoreApi';
 
 describe('Проверка функционала добавления котов', async () => {
   it('Получение кота по id', async () => {
-    const name = 'Вики';
+    const name = 'Магна';
 
-    const response = await CoreApi.getCatById(101368);
+    const response = await CoreApi.getCatById(101894);
 
     assert.equal(response.data.cat.name, name, 'Имена не соответствуют');
   });
 
   it('Поиск существующего кота', async () => {
-    const expName = 'Балу';
+    const expName = 'Бамбино';
 
     const response = await CoreApi.searchCatByPartName(expName);
     if (response.status === 404) {
       assert.fail(`Кот не найден! Response:\n ${JSON.stringify(response.data, null, 2)}`);
     }
+
     const actName: string = response.data.cats[0].name;
 
     assert.ok(actName === expName, `Имя [${actName}] не соответствует ожидаемому [${expName}]`);
@@ -25,7 +26,7 @@ describe('Проверка функционала добавления кото�
   it('Проверка статуса ответа при удалении несуществующего кота', async () => {
     const status: number = 404;
 
-    const response = await CoreApi.removeCat(103826);
+    const response = await CoreApi.removeCat(102422);
 
     assert.ok(
       response.status === status,
@@ -35,13 +36,13 @@ describe('Проверка функционала добавления кото�
 
   it('Проверка данных о коте', async () => {
     const cat_exp = {
-      id: 101368,
-      name: 'Вики',
-      description: 'Hdijd',
+      id: 1181039,
+      name: 'Агат',
+      description: 'Агат',
       tags: null,
       gender: 'female',
-      likes: 560,
-      dislikes: 0,
+      likes: 3,
+      dislikes: 5,
     };
 
     const response = await CoreApi.getCatById(101368);
@@ -50,7 +51,7 @@ describe('Проверка функционала добавления кото�
   });
 
   it('Проверка что все коты из списка женского пола', async () => {
-    const catsIdList = [103775, 101377, 101437];
+    const catsIdList = [101260, 101323, 101400];
     const gender = `female`;
     const genderList = [];
 

@@ -1,0 +1,41 @@
+{
+  "uid" : "b4fac96542bc3176",
+  "name" : "Проверка данных о коте",
+  "fullName" : "Проверка данных о коте",
+  "historyId" : "31f0a22790e35264ce106a566db3adf2",
+  "time" : {
+    "start" : 1626618404998,
+    "stop" : 1626618405333,
+    "duration" : 335
+  },
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'data' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'data' of undefined\n    at Context.<anonymous> (tests\\demo_test.ts:49:31)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Проверка функционала добавления котов"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b4fac96542bc3176.json",
+  "parameterValues" : [ ]
+}
